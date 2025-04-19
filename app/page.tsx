@@ -10,6 +10,8 @@ import { ProjectCard } from "@/components/project-card"
 import { SkillBadge } from "@/components/skill-badge"
 import { MotionWrapper } from "@/components/motion-wrapper"
 import { FloatingNav } from "@/components/floating-nav"
+import ServicesSection from "@/components/services-section"
+
 
 export default function Home() {
   const navigationItems = [
@@ -52,7 +54,7 @@ export default function Home() {
                     ease: "easeInOut",
                   }}
                 >
-                  <Image src="/images/chernet-mitiku.png" alt="Chernet Mitiku" fill className="object-cover" priority />
+                  <Image src="/images/chernet-mitiku.jpg" alt="Chernet Mitiku" fill className="object-cover" priority />
                 </motion.div>
 
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
@@ -106,6 +108,11 @@ export default function Home() {
               </div>
             </div>
           </section>
+
+          {/* Services Section */}
+          <ServicesSection />
+
+          {/* Experience Section */}
 
           {/* Projects Section */}
           <section id="projects" className="container py-16 md:py-24 space-y-8">

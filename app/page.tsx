@@ -69,7 +69,7 @@ export default function Home() {
                   </motion.span>
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground">
-                  Front-End Developer specializing in building exceptional digital experiences
+                  Front-End Developer (React / Next.js) helping businesses build fast, scalable web platforms
                 </p>
                 <div className="flex gap-4 pt-4 justify-center">
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -97,9 +97,7 @@ export default function Home() {
               </MotionWrapper>
               <div className="max-w-3xl mx-auto text-center space-y-4">
                 {[
-                  "I'm a passionate Front-End developer with experience building web applications. I specialize in JavaScript, React, and modern web technologies.",
-                  "My journey in software development began when I built my first website. Since then, I've worked on various projects to create efficient, scalable, and user-friendly applications.",
-                  "When I'm not coding, you can find me exploring new technologies, reading, or enjoying outdoor activities.",
+                  "I'm a Frontend Developer focused on building fast, accessible and scalable web applications using modern technologies like React and Next.js. I enjoy transforming ideas into reliable digital products and creating interfaces that are both intuitive for users and maintainable for teams. I have hands-on experience developinng real platforms, including a production job-posting website and multiple responsive web applications, where I worked on performance optimization, component architecture and user focused design. I hold a Bachelor's degree in Information Technology from Wolaita Sodo University and currently work in a customer-facing role at Dashen Bank, which has strengthened my understanding of business workflows, user needs, and professional communication skills I bring into every project I build.  I'm passionate about building impactful digital products and am actively seeking remote opportunities where I can contribute to meaningful web platforms while continuing to grow as a frontend engineer.",
                 ].map((paragraph, index) => (
                   <MotionWrapper key={index} delay={index * 0.2}>
                     <p className="text-lg text-muted-foreground">{paragraph}</p>
@@ -128,8 +126,16 @@ export default function Home() {
             >
               {[
                 {
+                  title: "Job Posting Platform",
+                  description: "Built a full job board with Next.js and database integration, Developed admin dashboard for managing job posts and structured pages for SEO and smooth user interface.",
+                  tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
+                  imageUrl: "/images/jobsethiopia.png",
+                  demoUrl: "https://jobsethiopia.vercel.app/",
+                  codeUrl: "#",
+                },
+                {
                   title: "YouTube Clone",
-                  description: "A responsive YouTube clone with video playback, comments, and channel features.",
+                  description: "Created responsive video UI with palyback and search, Implemented dynamic data loading and auth features and Built reusable components for scalable layout.",
                   tags: ["React", "Firebase", "Styled Components"],
                   imageUrl: "/images/youtube-clone.png",
                   demoUrl: "https://youtube-clone-pearl-iota.vercel.app/",
@@ -137,16 +143,16 @@ export default function Home() {
                 },
                 {
                   title: "Gemini Clone",
-                  description: "A clone of Google's Gemini AI interface with chat functionality and responsive design.",
+                  description: "Built AI chat interface with responsive layout and message streaming, Implemented dynamic input handling and reusable UI components and Focused on clean state management and fast rendering.",
                   tags: ["Next.js", "TypeScript", "Tailwind CSS"],
                   imageUrl: "/images/gemini-clone.png",
                   demoUrl: "https://gemini-clone-iota-six.vercel.app/",
                   codeUrl: "https://github.com/yayachere/gemini-clone",
                 },
                 {
-                  title: "Car Selling Site",
+                  title: "Car Buy / Selling Site",
                   description:
-                    "An e-commerce platform for buying and selling cars with search and filter functionality.",
+                    "Developed responsive vehicle listing and detail pages, Implemented filtering and structured product display UI and Optimized layout for smooth browsing across devices",
                   tags: ["React", "Redux", "Node.js"],
                   imageUrl: "/images/car-selling-site.png",
                   demoUrl: "https://chernet-ev-site.netlify.app/",
@@ -155,24 +161,16 @@ export default function Home() {
                 {
                   title: "AI Blockchain Site",
                   description:
-                    "A platform integrating AI and blockchain technologies for secure, intelligent transactions and data analysis.",
+                    "Designed modern landing pages explaining AI/blockchain services, Built responsive sections with reusable components and Focused on performance and clean UI structure.",
                   tags: ["React", "Solidity", "TensorFlow.js", "Web3.js"],
                   imageUrl: "/images/ai-blockchain.png",
                   demoUrl: "https://front-end-assignment-figma.vercel.app/",
                   codeUrl: "https://github.com/yayachere/front-end-assignment-figma",
                 },
                 {
-                  title: "Personal Portfolio",
-                  description: "A responsive portfolio website showcasing my skills and projects.",
-                  tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
-                  imageUrl: "/images/portfolio.png",
-                  demoUrl: "#",
-                  codeUrl: "#",
-                },
-                {
                   title: "College Site",
                   description:
-                    "A comprehensive college website with course information, faculty profiles, and student portal.",
+                    "Developed multi-page responsive institutional site, Organized navigation and modular components and Improved usability with clear content structure.",
                   tags: ["React", "Bootstrap", "Firebase"],
                   imageUrl: "/images/college-site.png",
                   demoUrl: "https://edusity-one-weld.vercel.app/",
@@ -252,8 +250,11 @@ export default function Home() {
             <div className="max-w-xl mx-auto space-y-8">
               <MotionWrapper className="space-y-6" delay={0.2}>
                 <p className="text-center text-muted-foreground">
-                  I'm currently open to freelance opportunities and interesting projects. Feel free to reach out if
-                  you'd like to work together!
+                  I'm available for remote frontend development opportunities, freelance projects and collaborations.
+
+                  If you have a project in mind or are looking for a developer to join your team, feel free to reach out.
+
+                  You can contact me with below options:
                 </p>
                 <div className="flex justify-center gap-4 pt-4">
                   {[

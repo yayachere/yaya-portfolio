@@ -43,38 +43,20 @@ function ServiceCard({ icon, title, description }: ServiceCardProps) {
 const services = [
   {
     icon: <Code className="w-6 h-6" />,
-    title: "Web Development",
+    title: "Frontend Development",
     description:
-      "Custom websites built with modern frameworks like React, Next.js, and Tailwind CSS to create fast, responsive, and user-friendly experiences.",
+      "I build fast,responsive and scalable web applications using moderntechnologies like React and Next.js. My focus is on writing clean, maintainable code while delivering seamless user experiences that work across devices and browsers.",
   },
   {
     icon: <Palette className="w-6 h-6" />,
-    title: "UI/UX Design",
+    title: "UI Engineering",
     description:
-      "Intuitive and engaging user interfaces with a focus on user experience, accessibility, and modern design principles.",
+      "I transform design concepts into pixel-perfect, accessible interfaces. With strong attention to detail and usablility, I ensure every component is intuitive, interactive and aligned with modern UI/UX best practices.",
   },
   {
     icon: <Smartphone className="w-6 h-6" />,
-    title: "Mobile Development",
-    description:
-      "Native and cross-platform mobile applications that provide seamless experiences across iOS and Android devices.",
-  },
-  {
-    icon: <Globe className="w-6 h-6" />,
-    title: "SEO Optimization",
-    description:
-      "Improve your site's visibility in search engines with technical SEO, content optimization, and performance enhancements.",
-  },
-  {
-    icon: <Lightbulb className="w-6 h-6" />,
-    title: "Consultation",
-    description:
-      "Strategic guidance on technology choices, architecture planning, and digital transformation for your business.",
-  },
-  {
-    icon: <Zap className="w-6 h-6" />,
     title: "Performance Optimization",
     description:
-      "Speed up your existing applications with code refactoring, bundle optimization, and modern best practices.",
+      "I improvewebsite speed, responsiveness an overall efficiency by optimizing  assets, reducing unnecessary re-renders and implementing best practicesin structured markup and frontend architecture to enhance user experience and search visibility",
   },
 ]

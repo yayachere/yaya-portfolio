@@ -127,7 +127,7 @@ export default function Home() {
               {[
                 {
                   title: "Job Posting Platform",
-                  description: "Built a full job board with Next.js and database integration, Developed admin dashboard for managing job posts and structured pages for SEO and smooth user interface.",
+                  description: "Built a full Job board with Next.js and database integration, Developed admin dashboard for managing job posts and structured pages for SEO and smooth user interface.",
                   tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
                   imageUrl: "/images/jobsethiopia.png",
                   demoUrl: "https://jobsethiopia.vercel.app/",

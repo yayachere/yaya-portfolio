@@ -142,21 +142,13 @@ export default function Home() {
                   codeUrl: "https://github.com/yayachere/youtube-clone",
                 },
                 {
-                  title: "Gemini Clone",
-                  description: "Built AI chat interface with responsive layout and message streaming, Implemented dynamic input handling and reusable UI components and Focused on clean state management and fast rendering.",
-                  tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-                  imageUrl: "/images/gemini-clone.png",
-                  demoUrl: "https://gemini-clone-iota-six.vercel.app/",
-                  codeUrl: "https://github.com/yayachere/gemini-clone",
-                },
-                {
-                  title: "Car Buy / Selling Site",
+                  title: "Job Application Tracker",
                   description:
-                    "Developed responsive vehicle listing and detail pages, Implemented filtering and structured product display UI and Optimized layout for smooth browsing across devices",
-                  tags: ["React", "Redux", "Node.js"],
-                  imageUrl: "/images/car-selling-site.png",
-                  demoUrl: "https://chernet-ev-site.netlify.app/",
-                  codeUrl: "https://github.com/yayachere/ev-website",
+                    "A web application that helps job seekers organize, track, and analyze their job applications in one place.",
+                tags: ["React", "Next.js", "PostgreQL", "Supabase"],
+                  imageUrl: "/images/jat1.png",
+                  demoUrl: "https://job-application-tracker-drab-three.vercel.app/",
+                  codeUrl: "https://github.com/yayachere/job-application-tracker",
                 },
                 {
                   title: "AI Blockchain Site",
@@ -175,6 +167,14 @@ export default function Home() {
                   imageUrl: "/images/college-site.png",
                   demoUrl: "https://edusity-one-weld.vercel.app/",
                   codeUrl: "https://github.com/yayachere/edusity",
+                },
+                {
+                  title: "Gemini Clone",
+                  description: "Built AI chat interface with responsive layout and message streaming, Implemented dynamic input handling and reusable UI components and Focused on clean state management and fast rendering.",
+                  tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+                  imageUrl: "/images/gemini-clone.png",
+                  demoUrl: "https://gemini-clone-iota-six.vercel.app/",
+                  codeUrl: "https://github.com/yayachere/gemini-clone",
                 },
               ].map((project, index) => (
                 <motion.div
